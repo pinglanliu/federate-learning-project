@@ -8,6 +8,7 @@ from utils.options import args_parser
 from utils.sampling import cifar_iid
 import sys
 
+# command python test_iid.py --gpu -1 --dataset cifar --num_channels 3 --model cnn --epochs 300
 
 args = args_parser()
 sys.stdout = Logger("./logs/cifar_iid.log")
@@ -26,7 +27,7 @@ plt.xlabel('rounds')
 plt.ylabel('train accuracy')
 plt.plot(len(rand_iid_train_accuracy)-1, rand_iid_train_accuracy[-1], 'r*')
 plt.annotate(f'{rand_iid_train_accuracy[-1]}', (len(rand_iid_train_accuracy)-1,rand_iid_train_accuracy[-1]))
-plt.savefig(f'./results/cifar/iid/train_accuracy_{args.epochs}.png')
+plt.savefig(f'./results/cifar/iid/train_accuracy_{args.epochs}_{args.model}.png')
 
 plt.figure()
 plt.plot(range(len(rand_iid_test_accuray)), rand_iid_test_accuray)
@@ -34,4 +35,4 @@ plt.xlabel('rounds')
 plt.ylabel('test accuracy')
 plt.plot(len(rand_iid_test_accuray)-1, rand_iid_test_accuray[-1], 'r*')
 plt.annotate(f'{rand_iid_test_accuray[-1]}', (len(rand_iid_test_accuray)-1,rand_iid_train_accuracy[-1]))
-plt.savefig(f'./results/cifar/iid/test_accuracy_{args.epochs}.png')
+plt.savefig(f'./results/cifar/iid/test_accuracy_{args.epochs}_{args.model}.png')
