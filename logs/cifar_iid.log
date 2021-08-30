@@ -1,0 +1,627 @@
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to ./data/cifar/cifar-10-python.tar.gz
+Files already downloaded and verified
+Sampled IID workers
+CNNCifar(
+  (conv1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=400, out_features=120, bias=True)
+  (fc2): Linear(in_features=120, out_features=84, bias=True)
+  (fc3): Linear(in_features=84, out_features=10, bias=True)
+)
+chosen workers [88 61  1 22 78 42 58 40 53 10]
+Round   0, Average loss 2.293
+Training accuracy: 20.00
+Testing accuracy: 19.00
+chosen workers [81  6 40 62 88 21 20 28 23 99]
+Round   1, Average loss 2.212
+Training accuracy: 26.00
+Testing accuracy: 25.00
+Files already downloaded and verified
+Files already downloaded and verified
+Sampled IID workers
+CNNCifar(
+  (conv1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=400, out_features=120, bias=True)
+  (fc2): Linear(in_features=120, out_features=84, bias=True)
+  (fc3): Linear(in_features=84, out_features=10, bias=True)
+)
+chosen workers [36 72  0 10 66 96  2 80 43 63]
+Round   0, Average loss 2.298
+Training accuracy: 15.00
+Testing accuracy: 15.00
+chosen workers [ 9 86 24 39 50 92  6 38 53 14]
+Round   1, Average loss 2.284
+Training accuracy: 17.00
+Testing accuracy: 17.00
+chosen workers [58 41 87 76 39 99 74 25 55 62]
+Round   2, Average loss 2.191
+Training accuracy: 24.00
+Testing accuracy: 24.00
+chosen workers [52 65 94 13 69 31 14 39  4 58]
+Round   3, Average loss 2.072
+Training accuracy: 29.00
+Testing accuracy: 29.00
+chosen workers [40 53 26 35 56 10 77  2 30 32]
+Round   4, Average loss 1.932
+Training accuracy: 32.00
+Testing accuracy: 31.00
+chosen workers [33 59 74 34  1 26 18 21 30  6]
+Round   5, Average loss 1.832
+Training accuracy: 36.00
+Testing accuracy: 35.00
+chosen workers [15 67  7  0 46 27 95 20  4 65]
+Round   6, Average loss 1.742
+Training accuracy: 39.00
+Testing accuracy: 38.00
+chosen workers [55 37 38 26 71 23 51 83 85  8]
+Round   7, Average loss 1.673
+Training accuracy: 41.00
+Testing accuracy: 40.00
+chosen workers [60 15  2 93 42  8 33 39 80 98]
+Round   8, Average loss 1.607
+Training accuracy: 43.00
+Testing accuracy: 41.00
+chosen workers [72  1 22 77 17 99 80 75 16 76]
+Round   9, Average loss 1.547
+Training accuracy: 44.00
+Testing accuracy: 42.00
+chosen workers [78 41 92 91 54 52 16 43 47 44]
+Round  10, Average loss 1.491
+Training accuracy: 45.00
+Testing accuracy: 43.00
+chosen workers [88 15 28 37 79 70 75  7 41  5]
+Round  11, Average loss 1.437
+Training accuracy: 47.00
+Testing accuracy: 44.00
+chosen workers [32 58 73 59 30 86 42 85 26 22]
+Round  12, Average loss 1.370
+Training accuracy: 48.00
+Testing accuracy: 45.00
+chosen workers [69 87  1 39 75 94 70 79 21 66]
+Round  13, Average loss 1.282
+Training accuracy: 50.00
+Testing accuracy: 46.00
+chosen workers [37  7 62 77 71 85 11 20 48 55]
+Round  14, Average loss 1.248
+Training accuracy: 49.00
+Testing accuracy: 47.00
+chosen workers [18 77 52 26 54 42 36 55 99 19]
+Round  15, Average loss 1.174
+Training accuracy: 52.00
+Testing accuracy: 48.00
+chosen workers [ 1 28 98 67 24 79 57 13 31 91]
+Round  16, Average loss 1.090
+Training accuracy: 54.00
+Testing accuracy: 49.00
+chosen workers [31 14 29 25 49 85  7 95 18 51]
+Round  17, Average loss 1.062
+Training accuracy: 54.00
+Testing accuracy: 49.00
+chosen workers [49 59 78 81 28 19 53 57 48  9]
+Round  18, Average loss 0.960
+Training accuracy: 56.00
+Testing accuracy: 49.00
+chosen workers [16 18 59 10 32 41 74 98  1 21]
+Round  19, Average loss 0.888
+Training accuracy: 56.00
+Testing accuracy: 50.00
+Files already downloaded and verified
+Files already downloaded and verified
+Sampled IID workers
+CNNCifar(
+  (conv1): Conv2d(3, 6, kernel_size=(5, 5), stride=(1, 1))
+  (pool): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=400, out_features=120, bias=True)
+  (fc2): Linear(in_features=120, out_features=84, bias=True)
+  (fc3): Linear(in_features=84, out_features=10, bias=True)
+)
+chosen workers [15 67 33 61 95 24 25 72 70 38]
+Round   0, Average loss 2.298
+Training accuracy: 10.00
+Testing accuracy: 10.00
+chosen workers [28 67 17 10  7  8 50 32 89 13]
+Round   1, Average loss 2.291
+Training accuracy: 12.00
+Testing accuracy: 12.00
+chosen workers [86 30 66 33 23 61 48 11  2 58]
+Round   2, Average loss 2.225
+Training accuracy: 24.00
+Testing accuracy: 23.00
+chosen workers [86 88 54 27 82 87 94  0  9 14]
+Round   3, Average loss 2.064
+Training accuracy: 28.00
+Testing accuracy: 28.00
+chosen workers [95  5 70 73 78 27 42 74 90 40]
+Round   4, Average loss 1.961
+Training accuracy: 31.00
+Testing accuracy: 31.00
+chosen workers [66 59  8 48 60 90 83 28 37 21]
+Round   5, Average loss 1.864
+Training accuracy: 34.00
+Testing accuracy: 35.00
+chosen workers [14 77 93 19 37 96 18 78 97 72]
+Round   6, Average loss 1.755
+Training accuracy: 38.00
+Testing accuracy: 37.00
+chosen workers [63 56 50 99 35 90 59 88 78 44]
+Round   7, Average loss 1.656
+Training accuracy: 40.00
+Testing accuracy: 40.00
+chosen workers [20 92 67  5 36  7 26 43 93 57]
+Round   8, Average loss 1.574
+Training accuracy: 43.00
+Testing accuracy: 41.00
+chosen workers [43 97 30 58 33 98 31  0 41 93]
+Round   9, Average loss 1.490
+Training accuracy: 45.00
+Testing accuracy: 42.00
+chosen workers [81 95 11 16 68  7 37 73 80  6]
+Round  10, Average loss 1.411
+Training accuracy: 47.00
+Testing accuracy: 44.00
+chosen workers [ 8 39 85 72 25 93 65 73 46  5]
+Round  11, Average loss 1.366
+Training accuracy: 47.00
+Testing accuracy: 44.00
+chosen workers [29 89  2 15  3 93 25 53 97 79]
+Round  12, Average loss 1.288
+Training accuracy: 49.00
+Testing accuracy: 46.00
+chosen workers [51  3 35 79 80 34 49 82 27 48]
+Round  13, Average loss 1.207
+Training accuracy: 51.00
+Testing accuracy: 47.00
+chosen workers [42 10 38 43 50 73 98 57 48  7]
+Round  14, Average loss 1.136
+Training accuracy: 52.00
+Testing accuracy: 47.00
+chosen workers [77 63 98 73 62 74 24 81 67 17]
+Round  15, Average loss 1.053
+Training accuracy: 52.00
+Testing accuracy: 48.00
+chosen workers [85 50  5 36 49 70 77 19 48 32]
+Round  16, Average loss 0.999
+Training accuracy: 54.00
+Testing accuracy: 49.00
+chosen workers [67 44 13 29  6 53 91 73 34 62]
+Round  17, Average loss 0.916
+Training accuracy: 55.00
+Testing accuracy: 50.00
+chosen workers [42 41 17 10  2 68 51 43 95 77]
+Round  18, Average loss 0.821
+Training accuracy: 57.00
+Testing accuracy: 49.00
+chosen workers [46 35 92 39  9 25 15 42 81 21]
+Round  19, Average loss 0.808
+Training accuracy: 57.00
+Testing accuracy: 50.00
+chosen workers [48 25 66 83 18  4 42  3 57 82]
+Round  20, Average loss 0.774
+Training accuracy: 56.00
+Testing accuracy: 50.00
+chosen workers [40 74 26 77 10 67  1 30 94 41]
+Round  21, Average loss 0.729
+Training accuracy: 59.00
+Testing accuracy: 50.00
+chosen workers [80 18 53 14 12  3 28 89 11 61]
+Round  22, Average loss 0.720
+Training accuracy: 58.00
+Testing accuracy: 51.00
+chosen workers [19  8  7 82 71 89 85 20 62 38]
+Round  23, Average loss 0.727
+Training accuracy: 58.00
+Testing accuracy: 51.00
+chosen workers [33 54 63  2 84  4 10 76 42 37]
+Round  24, Average loss 0.670
+Training accuracy: 59.00
+Testing accuracy: 51.00
+chosen workers [47 15 62 94 81 55 17 80 12  2]
+Round  25, Average loss 0.599
+Training accuracy: 61.00
+Testing accuracy: 52.00
+chosen workers [75 58 14 85 76 73  8 33 89 95]
+Round  26, Average loss 0.645
+Training accuracy: 60.00
+Testing accuracy: 51.00
+chosen workers [47  4 76 12 43 20 57 85 95 51]
+Round  27, Average loss 0.569
+Training accuracy: 61.00
+Testing accuracy: 51.00
+chosen workers [93 13  4 41 95 48 97  5 28 71]
+Round  28, Average loss 0.592
+Training accuracy: 61.00
+Testing accuracy: 51.00
+chosen workers [ 7 77 75 25 83 24 71 72 33 26]
+Round  29, Average loss 0.611
+Training accuracy: 61.00
+Testing accuracy: 51.00
+chosen workers [96 50 35 82 28 34 30  0 33 29]
+Round  30, Average loss 0.611
+Training accuracy: 61.00
+Testing accuracy: 52.00
+chosen workers [52 81 95 60 99  5 91 22 47 25]
+Round  31, Average loss 0.580
+Training accuracy: 60.00
+Testing accuracy: 52.00
+chosen workers [ 7 52 59  5 41 81 33 98 28 75]
+Round  32, Average loss 0.516
+Training accuracy: 65.00
+Testing accuracy: 51.00
+chosen workers [25 47 38 90 10 13 46 48 72 98]
+Round  33, Average loss 0.568
+Training accuracy: 62.00
+Testing accuracy: 51.00
+chosen workers [37 22 79 77 40 54 96 15 43 63]
+Round  34, Average loss 0.585
+Training accuracy: 63.00
+Testing accuracy: 52.00
+chosen workers [82 10 44 65 55 58 51 24 96 66]
+Round  35, Average loss 0.563
+Training accuracy: 61.00
+Testing accuracy: 52.00
+chosen workers [71 53 98 87 75 78 93 58 20 39]
+Round  36, Average loss 0.562
+Training accuracy: 62.00
+Testing accuracy: 52.00
+chosen workers [14 12 94 77 33 67 48 32 54 17]
+Round  37, Average loss 0.514
+Training accuracy: 64.00
+Testing accuracy: 53.00
+chosen workers [ 5 45 21 88 52 20 60 98 77 73]
+Round  38, Average loss 0.550
+Training accuracy: 63.00
+Testing accuracy: 52.00
+chosen workers [89 21  4 96 69 80 30 12 95 39]
+Round  39, Average loss 0.492
+Training accuracy: 65.00
+Testing accuracy: 53.00
+chosen workers [21 40 15  6 26 88 95 84 57 16]
+Round  40, Average loss 0.526
+Training accuracy: 63.00
+Testing accuracy: 53.00
+chosen workers [41  0 12 96 38 51 11 18  9 53]
+Round  41, Average loss 0.498
+Training accuracy: 64.00
+Testing accuracy: 53.00
+chosen workers [97 68 67 32 73 72 57 49 75 41]
+Round  42, Average loss 0.537
+Training accuracy: 64.00
+Testing accuracy: 53.00
+chosen workers [19 82 36  0  7 68 61 83 77 49]
+Round  43, Average loss 0.524
+Training accuracy: 64.00
+Testing accuracy: 53.00
+chosen workers [82 81 99  2 52 85 38  8 28 49]
+Round  44, Average loss 0.487
+Training accuracy: 64.00
+Testing accuracy: 53.00
+chosen workers [18 86 22 89 64 50 95 81 75 48]
+Round  45, Average loss 0.488
+Training accuracy: 66.00
+Testing accuracy: 53.00
+chosen workers [15 26 21 70 25 57 83 56 94 42]
+Round  46, Average loss 0.502
+Training accuracy: 65.00
+Testing accuracy: 53.00
+chosen workers [72 91 84 40 52 13 53  2  6 20]
+Round  47, Average loss 0.496
+Training accuracy: 65.00
+Testing accuracy: 53.00
+chosen workers [71 41 19 45 40 20 55 51 86  7]
+Round  48, Average loss 0.473
+Training accuracy: 66.00
+Testing accuracy: 53.00
+chosen workers [69 35 80 77 63 82 19 91 10 56]
+Round  49, Average loss 0.490
+Training accuracy: 66.00
+Testing accuracy: 53.00
+chosen workers [ 8 75 96 74 17 16 38 93 23 84]
+Round  50, Average loss 0.513
+Training accuracy: 65.00
+Testing accuracy: 53.00
+chosen workers [35 16 85 58 32 70 52 53 37 27]
+Round  51, Average loss 0.512
+Training accuracy: 63.00
+Testing accuracy: 53.00
+chosen workers [ 5 17 66 13 58 70 83  6 27 61]
+Round  52, Average loss 0.488
+Training accuracy: 64.00
+Testing accuracy: 53.00
+chosen workers [70 82 10 39 11 73 17 40 56 65]
+Round  53, Average loss 0.463
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [96  3  6 13 56 65  5 37 84 95]
+Round  54, Average loss 0.440
+Training accuracy: 67.00
+Testing accuracy: 53.00
+chosen workers [91 42 63 85 70 24 61 69 22 55]
+Round  55, Average loss 0.473
+Training accuracy: 67.00
+Testing accuracy: 53.00
+chosen workers [61 33 94 39 73 67 34 32  5  0]
+Round  56, Average loss 0.444
+Training accuracy: 68.00
+Testing accuracy: 54.00
+chosen workers [32 36 70 87 67 29 41 19 40  9]
+Round  57, Average loss 0.472
+Training accuracy: 66.00
+Testing accuracy: 54.00
+chosen workers [79 57 51  0 18 11 87 54 62 38]
+Round  58, Average loss 0.485
+Training accuracy: 66.00
+Testing accuracy: 53.00
+chosen workers [96 23 31 35 69 37 22 83 41 45]
+Round  59, Average loss 0.451
+Training accuracy: 66.00
+Testing accuracy: 54.00
+chosen workers [28 25 92 67 68 17 30 78 33 65]
+Round  60, Average loss 0.470
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [90 23 55 59 78 16 40 43 84 62]
+Round  61, Average loss 0.483
+Training accuracy: 66.00
+Testing accuracy: 54.00
+chosen workers [38 89 53 16 48 99 20 25 82 24]
+Round  62, Average loss 0.454
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [67 64 99  0 40 48 69 29 87 31]
+Round  63, Average loss 0.444
+Training accuracy: 68.00
+Testing accuracy: 54.00
+chosen workers [58 39 30  1 82  9 20 52 63 91]
+Round  64, Average loss 0.432
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [55 80 77 98 70 28 49 84 24 39]
+Round  65, Average loss 0.419
+Training accuracy: 69.00
+Testing accuracy: 54.00
+chosen workers [43 47  3 58 49 50 82 96 71  0]
+Round  66, Average loss 0.424
+Training accuracy: 69.00
+Testing accuracy: 54.00
+chosen workers [85 68  2 94 13 60  3  0 38 44]
+Round  67, Average loss 0.459
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [87 28 40 13 53 49 39 37 75 51]
+Round  68, Average loss 0.374
+Training accuracy: 71.00
+Testing accuracy: 54.00
+chosen workers [16 26 21 54 81  1 95 32 82  0]
+Round  69, Average loss 0.399
+Training accuracy: 69.00
+Testing accuracy: 54.00
+chosen workers [18 96 99 57  9 74 28 23 81 50]
+Round  70, Average loss 0.434
+Training accuracy: 69.00
+Testing accuracy: 54.00
+chosen workers [24 13 56 48 50 36 99 66 54  0]
+Round  71, Average loss 0.414
+Training accuracy: 68.00
+Testing accuracy: 54.00
+chosen workers [85 68 92 84 91 11 61 71 46 49]
+Round  72, Average loss 0.455
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [49  5 41 76 72 35 28 48 31 74]
+Round  73, Average loss 0.410
+Training accuracy: 70.00
+Testing accuracy: 54.00
+chosen workers [ 6 10 46 71 28 95 22 67  7 32]
+Round  74, Average loss 0.394
+Training accuracy: 70.00
+Testing accuracy: 54.00
+chosen workers [37 59 19 22 38 46 23 97 39 63]
+Round  75, Average loss 0.427
+Training accuracy: 68.00
+Testing accuracy: 54.00
+chosen workers [54 61 20  5 71 63  1 39 13 69]
+Round  76, Average loss 0.357
+Training accuracy: 72.00
+Testing accuracy: 54.00
+chosen workers [75 34 32 49  1 11 21 64 68 78]
+Round  77, Average loss 0.412
+Training accuracy: 69.00
+Testing accuracy: 54.00
+chosen workers [95 43 30 37 28 96 13 93 92 69]
+Round  78, Average loss 0.361
+Training accuracy: 73.00
+Testing accuracy: 53.00
+chosen workers [79 94 49 81 60 68 22 58 93 61]
+Round  79, Average loss 0.386
+Training accuracy: 71.00
+Testing accuracy: 54.00
+chosen workers [74 44 84 93 62 58 24 87 63 39]
+Round  80, Average loss 0.395
+Training accuracy: 70.00
+Testing accuracy: 54.00
+chosen workers [10 26 36 52 35 12 50 71 88 61]
+Round  81, Average loss 0.440
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [60 15 52 48 57 99 94  8 88 67]
+Round  82, Average loss 0.413
+Training accuracy: 69.00
+Testing accuracy: 54.00
+chosen workers [45 62 87 15 22 31 79  0 88  4]
+Round  83, Average loss 0.412
+Training accuracy: 69.00
+Testing accuracy: 54.00
+chosen workers [ 5  2 70 51 89 54 72 49 43 14]
+Round  84, Average loss 0.409
+Training accuracy: 70.00
+Testing accuracy: 54.00
+chosen workers [14  3  4 36 83 24 98 57 97 59]
+Round  85, Average loss 0.441
+Training accuracy: 67.00
+Testing accuracy: 54.00
+chosen workers [22 89  9 67 73 78  5 12 15 16]
+Round  86, Average loss 0.370
+Training accuracy: 70.00
+Testing accuracy: 54.00
+chosen workers [12 63 49 79 18 11 83 52 13 27]
+Round  87, Average loss 0.375
+Training accuracy: 71.00
+Testing accuracy: 54.00
+chosen workers [45 49 42  8 60 95  9  2 36  6]
+Round  88, Average loss 0.389
+Training accuracy: 70.00
+Testing accuracy: 55.00
+chosen workers [ 1 97 34 45 52 89 98 24 93 18]
+Round  89, Average loss 0.365
+Training accuracy: 72.00
+Testing accuracy: 55.00
+chosen workers [47 13 20 49 50 17  5 73 39 84]
+Round  90, Average loss 0.352
+Training accuracy: 73.00
+Testing accuracy: 54.00
+chosen workers [69 72 67 95 46 17 43 30 79 48]
+Round  91, Average loss 0.370
+Training accuracy: 72.00
+Testing accuracy: 54.00
+chosen workers [73 13 82 15 10 91 76 89 28 45]
+Round  92, Average loss 0.350
+Training accuracy: 72.00
+Testing accuracy: 54.00
+chosen workers [43 67 79 96 86 70 61 12  5 71]
+Round  93, Average loss 0.330
+Training accuracy: 74.00
+Testing accuracy: 54.00
+chosen workers [ 0 69 27  8 72 24 58 77 28  3]
+Round  94, Average loss 0.373
+Training accuracy: 71.00
+Testing accuracy: 54.00
+chosen workers [32 99 16 17 82 41 70 86 36 83]
+Round  95, Average loss 0.381
+Training accuracy: 71.00
+Testing accuracy: 55.00
+chosen workers [66 10 68 75 17 73 35 78 69 98]
+Round  96, Average loss 0.378
+Training accuracy: 72.00
+Testing accuracy: 54.00
+chosen workers [24 84 85 86 39 73 18 14 50 12]
+Round  97, Average loss 0.341
+Training accuracy: 72.00
+Testing accuracy: 54.00
+chosen workers [58 93 72 82  2 89 62  5 36 78]
+Round  98, Average loss 0.338
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [ 8 95 44 90 87 46 30 16 41 94]
+Round  99, Average loss 0.404
+Training accuracy: 70.00
+Testing accuracy: 55.00
+chosen workers [35 49 39 36 76 74 19 17  6 82]
+Round 100, Average loss 0.335
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [55 78 94 96 77 74 69 82 66 81]
+Round 101, Average loss 0.344
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [ 8 66 84 99 98 20 31 73 13  6]
+Round 102, Average loss 0.361
+Training accuracy: 72.00
+Testing accuracy: 55.00
+chosen workers [18 38  4 20 36  1  2 59 67 64]
+Round 103, Average loss 0.374
+Training accuracy: 71.00
+Testing accuracy: 55.00
+chosen workers [81  2 37 12 36  5 32 52 92 11]
+Round 104, Average loss 0.339
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [62 80 11 95 27 74 12 57  3 87]
+Round 105, Average loss 0.370
+Training accuracy: 71.00
+Testing accuracy: 54.00
+chosen workers [82 37 17 72 65 27 74 14 90 19]
+Round 106, Average loss 0.354
+Training accuracy: 72.00
+Testing accuracy: 55.00
+chosen workers [63 90 61 27 99  3 35 11 37 50]
+Round 107, Average loss 0.335
+Training accuracy: 72.00
+Testing accuracy: 54.00
+chosen workers [11 67 37 19  7 65 30 23 61 39]
+Round 108, Average loss 0.326
+Training accuracy: 73.00
+Testing accuracy: 54.00
+chosen workers [98 10 31 77 22 72 87 41  6 85]
+Round 109, Average loss 0.364
+Training accuracy: 71.00
+Testing accuracy: 54.00
+chosen workers [21 13 17 76 81 70 54 99  5 89]
+Round 110, Average loss 0.336
+Training accuracy: 74.00
+Testing accuracy: 54.00
+chosen workers [45 90 57 31 21 59 77 52 39 92]
+Round 111, Average loss 0.349
+Training accuracy: 72.00
+Testing accuracy: 54.00
+chosen workers [44 78 50 75 55 74 99 43 53 94]
+Round 112, Average loss 0.367
+Training accuracy: 71.00
+Testing accuracy: 54.00
+chosen workers [69 56 97 85 87  5  7 46 40 58]
+Round 113, Average loss 0.374
+Training accuracy: 71.00
+Testing accuracy: 55.00
+chosen workers [69 18  9 75 58 17 64 79 94 60]
+Round 114, Average loss 0.349
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [22 16 57 11 26 28 89 97 96 73]
+Round 115, Average loss 0.322
+Training accuracy: 74.00
+Testing accuracy: 55.00
+chosen workers [88 18 43 16 17 33 90 94 82 53]
+Round 116, Average loss 0.325
+Training accuracy: 74.00
+Testing accuracy: 55.00
+chosen workers [66 83 33 36 69 20 43  0 77 79]
+Round 117, Average loss 0.338
+Training accuracy: 74.00
+Testing accuracy: 54.00
+chosen workers [65 32 58 27 40 61 63 26  4 13]
+Round 118, Average loss 0.345
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [77 71 95 92 51 79 74 27 43 75]
+Round 119, Average loss 0.317
+Training accuracy: 74.00
+Testing accuracy: 54.00
+chosen workers [ 6 21 40 48 45 98 81 70 87 52]
+Round 120, Average loss 0.335
+Training accuracy: 73.00
+Testing accuracy: 54.00
+chosen workers [88 94 79 31 21 65 14 72 51 11]
+Round 121, Average loss 0.326
+Training accuracy: 73.00
+Testing accuracy: 54.00
+chosen workers [35 96 36 29 32 20 84 50 93 49]
+Round 122, Average loss 0.346
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [66 99 20 95 32 15 52  1 59 57]
+Round 123, Average loss 0.325
+Training accuracy: 73.00
+Testing accuracy: 55.00
+chosen workers [59 40 41 56 99 85 84 24 45 46]
+Round 124, Average loss 0.334
+Training accuracy: 72.00
+Testing accuracy: 55.00
+chosen workers [69 14 37 96 68 51  5 72 38 41]
+Round 125, Average loss 0.312
+Training accuracy: 75.00
+Testing accuracy: 55.00
+chosen workers [38  8  7 44  3 98 76 17 95 41]
+Round 126, Average loss 0.336

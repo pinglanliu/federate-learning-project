@@ -1,0 +1,11 @@
+# cifar dataset 
+/data
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+.vscode
+.DS_Store
