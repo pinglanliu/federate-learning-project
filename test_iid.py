@@ -8,7 +8,10 @@ from utils.options import args_parser
 from utils.sampling import cifar_iid
 import sys
 
-# command python test_iid.py --gpu -1 --dataset cifar --num_channels 3 --model cnn --epochs 300
+# local command: python test_iid.py --gpu -1 --dataset cifar --num_channels 3 --model cnn --epochs 300
+# ubuntu command: 
+# nohup python3 test_iid.py --gpu -1 --dataset cifar --num_channels 3 --model vgg --epochs 200 > output.log &
+# ps ax | grep test_iid.py
 
 args = args_parser()
 sys.stdout = Logger("./logs/cifar_iid.log")
@@ -34,5 +37,5 @@ plt.plot(range(len(rand_iid_test_accuray)), rand_iid_test_accuray)
 plt.xlabel('rounds')
 plt.ylabel('test accuracy')
 plt.plot(len(rand_iid_test_accuray)-1, rand_iid_test_accuray[-1], 'r*')
-plt.annotate(f'{rand_iid_test_accuray[-1]}', (len(rand_iid_test_accuray)-1,rand_iid_train_accuracy[-1]))
+plt.annotate(f'{rand_iid_test_accuray[-1]}', (len(rand_iid_test_accuray)-1,rand_iid_test_accuray[-1]))
 plt.savefig(f'./results/cifar/iid/fixed-users/test_accuracy_{args.epochs}_{args.model}_{len(idxs_users)}.png')
