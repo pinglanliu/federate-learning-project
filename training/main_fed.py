@@ -42,7 +42,7 @@ def main_fed(dataset_train, dataset_test, dict_users, idxs_users):
     accuracy_test = []
     
     for iter in range(args.epochs):
-        idxs_users = np.random.choice(range(100), 10, replace=False)
+        # idxs_users = np.random.choice(range(100), 10, replace=False)
         print(f'chosen workers {idxs_users}')
         loss_locals = []
         if not args.all_clients:
