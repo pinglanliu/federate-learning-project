@@ -19,7 +19,7 @@ dataset_test = datasets.CIFAR10('./data/cifar', train=False, download=True, tran
 
 print("Sampled IID workers")
 dict_users = cifar_iid(dataset_train)
-idxs_users = [i for i in range(10)]
+idxs_users = [i for i in range(30)]
 rand_iid_train_accuracy, rand_iid_test_accuray = main_fed(dataset_train, dataset_test, dict_users, idxs_users)
 plt.figure()
 plt.plot(range(len(rand_iid_train_accuracy)), rand_iid_train_accuracy)
@@ -27,7 +27,7 @@ plt.xlabel('rounds')
 plt.ylabel('train accuracy')
 plt.plot(len(rand_iid_train_accuracy)-1, rand_iid_train_accuracy[-1], 'r*')
 plt.annotate(f'{rand_iid_train_accuracy[-1]}', (len(rand_iid_train_accuracy)-1,rand_iid_train_accuracy[-1]))
-plt.savefig(f'./results/cifar/iid/train_accuracy_{args.epochs}_{args.model}.png')
+plt.savefig(f'./results/cifar/iid/train_accuracy_{args.epochs}_{args.model}_{len(idxs_users)}.png')
 
 plt.figure()
 plt.plot(range(len(rand_iid_test_accuray)), rand_iid_test_accuray)
@@ -35,4 +35,4 @@ plt.xlabel('rounds')
 plt.ylabel('test accuracy')
 plt.plot(len(rand_iid_test_accuray)-1, rand_iid_test_accuray[-1], 'r*')
 plt.annotate(f'{rand_iid_test_accuray[-1]}', (len(rand_iid_test_accuray)-1,rand_iid_train_accuracy[-1]))
-plt.savefig(f'./results/cifar/iid/test_accuracy_{args.epochs}_{args.model}.png')
+plt.savefig(f'./results/cifar/iid/test_accuracy_{args.epochs}_{args.model}_{len(idxs_users)}.png')
