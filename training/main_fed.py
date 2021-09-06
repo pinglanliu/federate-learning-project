@@ -43,8 +43,8 @@ def main_fed(dataset_train, dataset_test, dict_users, idxs_users):
     
     for iter in range(args.epochs):
         # every 30 epoches, fixed users
-        if iter % 30 == 0:
-            idxs_users = np.random.choice(range(100), 10, replace=False)
+        # if iter % 30 == 0:
+        #     idxs_users = np.random.choice(range(100), 10, replace=False)
         print(f'chosen workers {idxs_users}')
         loss_locals = []
         if not args.all_clients:
